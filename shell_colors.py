@@ -7,7 +7,8 @@ notes = [
     'Use something like neofetch to see predefined colors easily',
     'If using along with python string formatting (ljust, rjust, or center), these characters are counted',
     '    To fix this, add increase character count for \\033, [, char length of <index>, and m',
-    '    Example: \\033[0m is 4 characters and \\033[100m is 5 characters'
+    '    Example: \\033[0m is 4 characters and \\033[100m is 5 characters',
+    'Note that most indices do nothing -- I believe they\'re placeholders with other uses within the OS.'
 ]
 print(' \033[1m\033[92mSHELL COLORS AND FORMATTING\033[0m '.center(161, '-'))
 print(''.ljust(148, '-'))
